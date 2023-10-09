@@ -6,7 +6,7 @@ const app= express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://chandoksahej:3iSwiEatn0Z9BBB5@cluster0.rktwo6l.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('URL')
 
 const UserSchema = new mongoose.Schema({
     email: String,
